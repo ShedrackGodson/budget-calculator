@@ -19,3 +19,40 @@
         color: $dark;
     }
 }
+
+.total-budget-section {
+    display: flex;
+    background: $dark;
+    height: 250px;
+
+    // Centered
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        font-family: 'Lato';
+        font-weight: 300;
+        font-size: 58px;
+        color: #fff;
+
+        // Color changes depending on the expenses and budget amount
+        &.green {
+            color: lighten($green, 12%);
+        }
+        &.red {
+            color: lighten($red, 12%);
+        }
+
+    }
+}
+
+.add-item-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .add-item-container {
+        width: 690px;
+        
+    }
+}
