@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { AddItemFormComponent } from './add-item-form/add-item-form.component';
+import { BudgetListItemComponent } from './budget-list-item/budget-list-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainPageComponent,
-    AddItemFormComponent
+    AddItemFormComponent,
+    BudgetListItemComponent
   ],
   imports: [
     BrowserModule,
